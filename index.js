@@ -29,6 +29,9 @@ if(numero){
         resposta.write('<h1>' + numero + 'x' + i + '=' + resultado + '</h1>');
     }
 }
+else{
+    resposta.write('<h1>Informe o numero e a sequencia desejada na url:   http://localhost:3000/tabuada?numero=0&sequencia=0</h1>');
+}
 resposta.write('</body>');
 resposta.end();
 
@@ -43,3 +46,5 @@ app.get("/tabuada", CalcularTabuada);
 app.listen(porta, host, () => {
     console.log("Servidor esta executando em http://" + host + ":" + porta);
 })
+
+//Aplicação Desenvolvida seguindo instruçoes da aula Online do dia 25/04/2024 as 19:00
