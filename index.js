@@ -16,15 +16,15 @@ if(!sequencia){
     sequencia=10;
 }
 
-resposta.write('<!DOCTYPE hmtl>');
+resposta.write('<!DOCTYPE html>');
 resposta.write('<html>');
 resposta.write('<head>');
-resposta.write('meta charset="utf-8">');
+resposta.write('<meta charset="UTF-8">');
 resposta.write('<title>Tabuada</title>');
 resposta.write("</head>");
 resposta.write('<body>');
 if(numero){
-    for(let i=0; i <= sequencia; i++){
+    for(let i=1; i <= sequencia; i++){
         const resultado = (numero * i);
         resposta.write('<h1>' + numero + 'x' + i + '=' + resultado + '</h1>');
     }
