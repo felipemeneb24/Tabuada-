@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/felipemeneb24/Tabuada-/issues"
   },
-  "homepage": "https://github.com/felipemeneb24/Tabuada-#readme"
+  "homepage": "https://github.com/felipemeneb24/Tabuada-#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
