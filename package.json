@@ -1,0 +1,27 @@
+{
+  "name": "tabuada-",
+  "version": "1.0.0",
+  "description": "tabuada ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipemeneb24/Tabuada-.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "ppi",
+    "tabuada"
+  ],
+  "author": "Felipe Mb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipemeneb24/Tabuada-/issues"
+  },
+  "homepage": "https://github.com/felipemeneb24/Tabuada-#readme"
+}
