@@ -47,4 +47,4 @@ app.listen(porta, host, () => {
     console.log("Servidor esta executando em http://" + host + ":" + porta);
 })
 
-//Aplicação Desenvolvida seguindo instruçoes da aula Online do dia 25/04/2024 as 19:00
+//Aplicação Desenvolvida seguindo instruçoes da aula Online do dia 25/04/2024 as 19:00hrs
